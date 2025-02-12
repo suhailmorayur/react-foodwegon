@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './App.css'
 import Header from './components/Header'
 import OfferCard from './components/OfferCard'
-import HeroSection from './components/HeroSection.JSX';
+import HeroSection from './components/HeroSection.jSX';
 import Section2 from './components/Section2';
 import PopularItems from './components/PopularItems';
 import FeaturedRestaurants from './components/FeaturedRestaurants';
