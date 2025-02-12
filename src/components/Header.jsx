@@ -21,7 +21,7 @@ function Header(props) {
         
   <div className='container mx-auto px-5 flex flex-row items-center justify-between '>
     
-<img className="w-[197px] h-[30.77px]" src="./public/logo.png" alt="" />
+<img className="w-[197px] h-[30.77px]" src="/logo.png" alt="" />
 
 
 
@@ -30,13 +30,13 @@ function Header(props) {
 
 <div className='flex flex-row items-center justify-center gap-2  '>
 <span>Deliver to:     </span>
-<img src="./public/map.png" alt="" />
+<img src="/map.png" alt="" />
 <span>Current Location</span>
 <span>Mohammadpur Bus Stand, Dhaka</span>
 </div>
 
 <div className='flex flex-row items-center justify-center gap-2'>
-  <img className='sm:hidden lg:block' src="./public/search.png" alt="" />
+  <img className='sm:hidden lg:block' src="/search.png" alt="" />
   <span>Search Food</span>
   <button className='rounded-lg shadow-md shadow-orange-300 p-2 border-orange-400  flex flex-row items-center justify-center gap-2'><img src="./public/user.png" alt="" /> Login </button>
 </div>
