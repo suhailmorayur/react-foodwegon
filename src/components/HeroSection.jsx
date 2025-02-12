@@ -6,7 +6,7 @@ function HeroSection(props) {
        <section className='mt-3'>
 
 
-<div className="relative bg-cover bg-center h-[500px] w-full" style={{ backgroundImage: "url('./public/header background.png')" }}>
+<div className="relative bg-cover bg-center h-[500px] w-full" style={{ backgroundImage: "url('/header background.png')" }}>
   <div className="absolute inset-0 flex items-center justify-start container mx-auto px-5 ">
     <div className="">
       <h1 className="text-6xl  text-white font-bold">Are you starving?</h1>
@@ -17,11 +17,11 @@ function HeroSection(props) {
       <div className=" mx-auto mt-10 p-6 bg-white rounded-2xl shadow-lg">
   <div className="flex space-x-2 mb-4">
     <button className="flex flex-row items-center gap-2 py-1 px-3 bg-orange-100 text-orange-500 text-sm font-medium rounded-lg"> 
-      <img src="./public/icon-bike.png" alt="" />
+      <img src="/icon-bike.png" alt="" />
       Delivery
     </button>
     <button className=" flex gap-2 py-1 px-3 text-gray-700 text-sm font-medium rounded-lg">
-    <img src="./public/icon-bag.png" alt="" />
+    <img src="/icon-bag.png" alt="" />
 
       Pickup
     </button>
@@ -38,13 +38,13 @@ function HeroSection(props) {
     <img  
           className="absolute left-3 top-1/2 transform -translate-y-1/2 "
 
-      src="./public/map-2.png" 
+      src="/map-2.png" 
       alt="" 
     />
   </div>
 
   <button className="flex items-center justify-center gap-2 px-6 py-3 bg-orange-500 text-white font-bold rounded-lg">
-   <img src="./public/search-2.png" alt="" />
+   <img src="/search-2.png" alt="" />
     Find Food
   </button>
 </div>
