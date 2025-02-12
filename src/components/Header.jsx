@@ -1,0 +1,49 @@
+import React from 'react';
+
+function Header(props) {
+    return (
+       <>
+       <header className='block lg:hidden'>
+        <div className=' container flex items-center justify-between'>
+        <div className=' '>
+        <img className="w-[197px] h-[30.77px]" src="./public/logo.png" alt="" />
+        </div>
+        <button><img src="/menu.png" alt="" /></button>
+
+        </div>
+       
+       </header>
+
+       
+       {/* lg screen viwe */}
+
+       <header className='mt-3 hidden lg:block'>
+        
+  <div className='container mx-auto px-5 flex flex-row items-center justify-between '>
+    
+<img className="w-[197px] h-[30.77px]" src="./public/logo.png" alt="" />
+
+
+
+
+
+
+<div className='flex flex-row items-center justify-center gap-2  '>
+<span>Deliver to:     </span>
+<img src="./public/map.png" alt="" />
+<span>Current Location</span>
+<span>Mohammadpur Bus Stand, Dhaka</span>
+</div>
+
+<div className='flex flex-row items-center justify-center gap-2'>
+  <img className='sm:hidden lg:block' src="./public/search.png" alt="" />
+  <span>Search Food</span>
+  <button className='rounded-lg shadow-md shadow-orange-300 p-2 border-orange-400  flex flex-row items-center justify-center gap-2'><img src="./public/user.png" alt="" /> Login </button>
+</div>
+</div>
+</header>
+       </>
+    );
+}
+
+export default Header;
