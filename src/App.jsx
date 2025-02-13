@@ -17,27 +17,27 @@ function App() {
 const  [offerProducts,setOfferProduct] = useState ([
   {
   id: 1,
-  image: "./public/offer-1.png", 
+  image: "/offer-1.png", 
   title: "Greys Vage",
   offer: "6 Days Remaining",
 },
 
 {
   id: 2,
-  image: "./public/offer-2.png", 
+  image: "/offer-2.png", 
   title: "Greys Vage",
   offer: "6 Days Remaining",
 },
 {
   id: 3,
-  image: "./public/offer-3.png", 
+  image: "/offer-3.png", 
   title: "Greys Vage",
   offer: "7 Days Remaining",
 },
 
 {
   id: 4,
-  image: "./public/offer-4.png", 
+  image: "/offer-4.png", 
   title: "Greys Vage",
   offer: "8 Days Remaining",
 },
