@@ -35,10 +35,10 @@ function Header(props) {
 <span>Mohammadpur Bus Stand, Dhaka</span>
 </div>
 
-<div className='flex flex-row items-center justify-center gap-2'>
+<div className='flex flex-row items-center justify-center gap-5'>
   <img className='' src="/Search.png" alt="" />
   <span className='font-bold' >Search Food</span>
-  <button className='rounded-lg shadow-md shadow-orange-300 p-2 border-orange-400  flex flex-row items-center justify-center gap-2 text-[#FF8A00] font-bold'><img src="/user.png" alt="" /> Login </button>
+  <button className='rounded-lg shadow-md shadow-orange-300 py-2 px-5 border-orange-400  flex flex-row items-center justify-center gap-2 text-[#FF8A00] font-bold'><img src="/user.png" alt="" /> Login </button>
 </div>
 </div>
 </header>
