@@ -6,7 +6,7 @@ function Header(props) {
        <header className='block lg:hidden'>
         <div className=' container flex items-center justify-between'>
         <div className=' '>
-        <img className="w-[197px] h-[30.77px]" src="/logo.png" alt="" />
+        <img className="w-[197px] h-[30.77px]" src="/Logo.png" alt="" />
         </div>
         <button><img src="/menu.png" alt="" /></button>
 
@@ -21,7 +21,7 @@ function Header(props) {
         
   <div className='container mx-auto px-5 flex flex-row items-center justify-between '>
     
-<img className="w-[197px] h-[30.77px]" src="/logo.png" alt="" />
+<img className="w-[197px] h-[30.77px]" src="/Logo.png" alt="" />
 
 
 
