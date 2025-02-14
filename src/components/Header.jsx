@@ -36,7 +36,7 @@ function Header(props) {
 </div>
 
 <div className='flex flex-row items-center justify-center gap-2'>
-  <img className='sm:hidden lg:block' src="/search.png" alt="" />
+  <img className='' src="/search.png" alt="" />
   <span>Search Food</span>
   <button className='rounded-lg shadow-md shadow-orange-300 p-2 border-orange-400  flex flex-row items-center justify-center gap-2'><img src="/user.png" alt="" /> Login </button>
 </div>
