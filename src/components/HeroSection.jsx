@@ -17,11 +17,11 @@ function HeroSection(props) {
       <div className=" mx-auto mt-10 p-6 bg-white rounded-2xl shadow-lg">
   <div className="flex space-x-2 mb-4">
     <button className="flex flex-row items-center gap-2 py-1 px-3 bg-orange-100 text-orange-500 text-sm font-medium rounded-lg"> 
-      <img src="/icon-bike.png" alt="" />
+      <img src="/Icon-bike.png" alt="" />
       Delivery
     </button>
     <button className=" flex gap-2 py-1 px-3 text-gray-700 text-sm font-medium rounded-lg">
-    <img src="/icon-bag.png" alt="" />
+    <img src="/Icon-bag.png" alt="" />
 
       Pickup
     </button>
