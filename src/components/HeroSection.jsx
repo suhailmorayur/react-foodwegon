@@ -44,7 +44,7 @@ function HeroSection(props) {
   </div>
 
   <button className="flex items-center justify-center gap-2 px-6 py-3 bg-orange-500 text-white font-bold rounded-lg">
-   <img src="/search-2.png" alt="" />
+   <img src="/Search-2.png" alt="" />
     Find Food
   </button>
 </div>
